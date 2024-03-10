@@ -58,7 +58,7 @@ const checkwinner=()=>{
 
         if(val1!="" && val2!="" && val3!=""){
             if(val1==val2 && val1==val3){
-                console.log("winner",val1);
+                console.log("--winner--",val1);
                 dissable();
                 showwinner(val1);
             }
